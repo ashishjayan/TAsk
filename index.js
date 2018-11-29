@@ -4,7 +4,7 @@ const port = 8081;
 
 app.get("/", (req, res) =>
   res.json({
-    project: "TAsk  API",
+    project: "task-api",
     message: "Welcome! to our new LMS",
     time: Date.now()
   })
