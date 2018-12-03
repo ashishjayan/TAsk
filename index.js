@@ -21,7 +21,6 @@ app.get("/", (req, res) =>
 app.get("/student-grade", (req, res) => {
   const studentName = req.query.studentName;
   const className = req.query.className;
-  console.log(studentName, className);
   res.json({ studentName, className });
 });
 
