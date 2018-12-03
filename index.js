@@ -18,10 +18,17 @@ app.get("/", (req, res) =>
   })
 );
 
-app.get("/student-grade", (req, res) => {
-  const studentName = req.query.studentName;
+app.get("/student-grade", async (req, res) => {
   const className = req.query.className;
-  res.json({ studentName, className });
+  const firstName = req.query.firstName;
+  const lastName = req.query.lastName;
+  const studentNumber = await connection
+    .promise()
+    .query(
+      `select StudentNum from Student where FirstName = "Ananda" and LastName = "Poudel"`
+    );
+  console.log(studentNumber);
+  res.json({ studentNumber });
 });
 
 app.listen(port, () => console.log(`task listening on port ${port}!`));
