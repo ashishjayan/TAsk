@@ -12,6 +12,7 @@ var connection = mysql.createConnection({
   database: "taskdb"
 });
 app.post("/echo", function(req, res) {
+  console.log("ashish");
   console.log(req.body);
   var speech =
     req.body.result &&
