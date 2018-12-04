@@ -1,5 +1,6 @@
 const express = require("express");
 const mysql = require("mysql2");
+const bodyParser = require("body-parser");
 const app = express();
 const port = 8081;
 
@@ -9,6 +10,20 @@ var connection = mysql.createConnection({
   user: "root",
   password: "omariscool",
   database: "taskdb"
+});
+app.post("/echo", function(req, res) {
+  console.log(req.body);
+  var speech =
+    req.body.result &&
+    req.body.result.parameters &&
+    req.body.result.parameters.echoText
+      ? req.body.result.parameters.echoText
+      : "Seems like some problem. Speak again.";
+  return res.json({
+    speech: speech,
+    displayText: speech,
+    source: "webhook-echo-sample"
+  });
 });
 app.get("/", (req, res) =>
   res.json({
