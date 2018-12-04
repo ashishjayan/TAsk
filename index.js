@@ -28,7 +28,7 @@ app.get("/student-grade", async (req, res) => {
       `select StudentNum from Student where FirstName = "Ananda" and LastName = "Poudel"`
     );
   console.log(studentNumber[0]);
-  res.send(studentNumber[0][0].StudentNum);
+  res.send(studentNumber[0][0]);
 });
 
 app.listen(port, () => console.log(`task listening on port ${port}!`));
