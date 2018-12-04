@@ -187,13 +187,13 @@ COMMIT;
 
 
 
-INSERT INTO Faculty VALUES (9001, 'Johnson', 'James', '38 Nonna Street', 'Toronto', 'Ontario', 'M3K3L1', 'Professor', '22-JAN-08', 4001, 'ITS');
-INSERT INTO Faculty VALUES (9002, 'Patel', 'Harry', '780 Yonge Street', 'Toronto', 'Ontario', 'M2M4J9', 'Lecturer', '29-JAN-10', 4002, 'ITS');
-INSERT INTO Faculty VALUES (9003, 'Singh', 'Jimmy', '3506 Markham Road', 'Scarborough', 'Ontario', 'M1J1A8', 'Professor', '26-FEB-09', 4003, 'HRM');
-INSERT INTO Faculty VALUES (9004, 'Love', 'Linda', '18 Keele Street', 'Toronto', 'Ontario', 'M1K1J3', 'Associate-Professor', '10-JUL-09', 4005, 'HRM');
-INSERT INTO Faculty VALUES (9005, 'Chema', 'Ron', '99 Juni Street', 'Toronto', 'Ontario', 'M1P1N3', 'Professor', '10-JUN-04', 4006, 'CHM');
-INSERT INTO Faculty VALUES (9006, 'Linberg', 'Jessie', '89 Clarkson Street', 'Toronto', 'Ontario', 'M1P1N1', 'Professor', '10-MAY-09', 4007, 'PHY');
-INSERT INTO Faculty VALUES (9007, 'White', 'Jane', '44 Ricky Street', 'Toronto', 'Ontario', 'M1P1N8', 'Lecturer', '02-JUN-02', 4008, 'PHY');
+INSERT INTO Faculty VALUES (9001, 'Johnson', 'James', '38 Nonna Street', 'Toronto', 'Ontario', 'M3K3L1', 'Professor', '2018-11-12 18:12:35.537000', 4001, 'ITS');
+INSERT INTO Faculty VALUES (9002, 'Patel', 'Harry', '780 Yonge Street', 'Toronto', 'Ontario', 'M2M4J9', 'Lecturer', '2018-11-12 18:12:35.537000', 4002, 'ITS');
+INSERT INTO Faculty VALUES (9003, 'Singh', 'Jimmy', '3506 Markham Road', 'Scarborough', 'Ontario', 'M1J1A8', 'Professor', '2018-11-12 18:12:35.537000', 4003, 'HRM');
+INSERT INTO Faculty VALUES (9004, 'Love', 'Linda', '18 Keele Street', 'Toronto', 'Ontario', 'M1K1J3', 'Associate-Professor', '2018-11-12 18:12:35.537000', 4005, 'HRM');
+INSERT INTO Faculty VALUES (9005, 'Chema', 'Ron', '99 Juni Street', 'Toronto', 'Ontario', 'M1P1N3', 'Professor', '2018-11-12 18:12:35.537000', 4006, 'CHM');
+INSERT INTO Faculty VALUES (9006, 'Linberg', 'Jessie', '89 Clarkson Street', 'Toronto', 'Ontario', 'M1P1N1', 'Professor', '2018-11-12 18:12:35.537000', 4007, 'PHY');
+INSERT INTO Faculty VALUES (9007, 'White', 'Jane', '44 Ricky Street', 'Toronto', 'Ontario', 'M1P1N8', 'Lecturer', '2018-11-12 18:12:35.537000', 4008, 'PHY');
 COMMIT;
 
 INSERT INTO Major VALUES ('101', 'SOFTWARE DEV', 'ITS');
@@ -203,13 +203,12 @@ INSERT INTO Major VALUES ('104', 'APPLIED PHYSICS', 'PHY');
 INSERT INTO Major VALUES ('105', 'MECHANICAL ENGINEERING', 'ENG');
 COMMIT;
 
-
-INSERT INTO Semester VALUES ('FA15', '07-SEP-2015', '10-DEC-2015', '11-DEC-2015', '20-DEC-2015', '07-OCT-2015');
-INSERT INTO Semester VALUES ('WI16', '07-JAN-2016', '11-APR-2016', '15-APR-2016', '22-APR-2016', '12-MAR-2016');
-INSERT INTO Semester VALUES ('SU15', '09-MAY-2015', '05-AUG-2015', '09-AUG-2015', '15-AUG-2015', '15-JUN-2015');
-INSERT INTO Semester VALUES ('FA14', '08-SEP-2015', '11-DEC-2015', '12-DEC-2015', '19-DEC-2015', '08-OCT-2015');
-INSERT INTO Semester VALUES ('SU14', '07-MAY-2015', '07-AUG-2015', '14-AUG-2015', '20-AUG-2015', '12-JUN-2015');
-INSERT INTO Semester VALUES ('WI15', '05-JAN-2016', '14-APR-2016', '21-APR-2016', '27-APR-2016', '13-MAR-2016');
+INSERT INTO Semester VALUES ('FA15', '2018-11-12 18:12:35.537000', '2018-11-12 18:12:35.537000', '2018-11-12 18:12:35.537000', '2018-11-12 18:12:35.537000', '2018-11-12 18:12:35.537000');
+INSERT INTO Semester VALUES ('WI16', '2018-11-12 18:12:35.537000', '2018-11-12 18:12:35.537000', '2018-11-12 18:12:35.537000', '2018-11-12 18:12:35.537000', '2018-11-12 18:12:35.537000');
+INSERT INTO Semester VALUES ('SU15', '2018-11-12 18:12:35.537000', '2018-11-12 18:12:35.537000', '2018-11-12 18:12:35.537000', '2018-11-12 18:12:35.537000', '2018-11-12 18:12:35.537000');
+INSERT INTO Semester VALUES ('FA14', '2018-11-12 18:12:35.537000', '2018-11-12 18:12:35.537000', '2018-11-12 18:12:35.537000', '2018-11-12 18:12:35.537000', '2018-11-12 18:12:35.537000');
+INSERT INTO Semester VALUES ('SU14', '2018-11-12 18:12:35.537000', '2018-11-12 18:12:35.537000', '2018-11-12 18:12:35.537000', '2018-11-12 18:12:35.537000', '2018-11-12 18:12:35.537000');
+INSERT INTO Semester VALUES ('WI15', '2018-11-12 18:12:35.537000', '2018-11-12 18:12:35.537000', '2018-11-12 18:12:35.537000', '2018-11-12 18:12:35.537000', '2018-11-12 18:12:35.537000');
 
 COMMIT;
 

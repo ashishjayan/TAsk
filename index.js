@@ -10,8 +10,6 @@ var connection = mysql.createConnection({
   password: "omariscool",
   database: "taskdb"
 });
-
-
 app.get("/", (req, res) =>
   res.json({
     project: "task-api",
