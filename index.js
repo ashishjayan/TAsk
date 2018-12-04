@@ -3,12 +3,14 @@ const mysql = require("mysql2");
 const app = express();
 const port = 8081;
 
-const connection = mysql.createConnection({
-  host: "task-db.clmqh9nyjmbn.us-west-2.rds.amazonaws.com",
+var connection = mysql.createConnection({
+  host: "35.193.222.192",
+  port: 3306,
   user: "root",
-  database: "taskdb",
-  password: "anandapoudel"
+  password: "omariscool",
+  database: "taskdb"
 });
+
 
 app.get("/", (req, res) =>
   res.json({
